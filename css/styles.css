@@ -147,10 +147,10 @@ h1 {
   text-transform: capitalize;
 }
 /* footer */
-footer {
+.footer-panel {
   background: #2e2f42;
   color: #f4f4fd;
 }
-footer .logo {
+.footer-panel .logo-web {
   color: #f4f4fd;
 }
