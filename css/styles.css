@@ -1,0 +1,126 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* Header */
+header {
+  background-color: #ffffff;
+}
+header a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* logo */
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+}
+.logo .logo-web {
+  color: #4d5ae5;
+}
+/* Menu nav */
+.navigation-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-menu a:hover {
+  color: #404bbf;
+}
+.navigation-menu-studio:active {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+/* Menu address */
+.navigation-address a {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.navigation-address a:hover {
+  color: #404bbf;
+}
+/* Main */
+/* Section main */
+.section-main {
+  background-color: #2e2f42;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.section-main-button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+  background: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px 32px;
+}
+.section-main-button:hover {
+  background: #404bbf;
+}
+/* section Char */
+.characteristics h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+.characteristics p {
+  color: #434455;
+}
+/* Section our team */
+.team {
+  background-color: #f4f4fd;
+}
+.team p {
+  color: #434455;
+}
+/* Section our portfolio */
+.portfolio p {
+  color: #434455;
+}
+/* footer */
+footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+footer .logo {
+  color: #f4f4fd;
+}
