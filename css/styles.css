@@ -49,7 +49,8 @@ ul {
   color: #2e2f42;
 }
 /* Menu nav */
-.navigation-menu a {
+.navigation-menu-list,
+.navigation-menu-list-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -59,7 +60,8 @@ ul {
 .navigation-menu a:hover {
   color: #404bbf;
 }
-.navigation-menu-studio:active {
+.navigation-menu-list-studio:active,
+.navigation-menu-list-studio:focus {
   text-decoration: underline;
   text-underline-offset: 20px;
   color: #404bbf;
@@ -68,7 +70,8 @@ ul {
 .navigation-address {
   font-style: normal;
 }
-.navigation-address a {
+.navigation-address-mail,
+.navigation-address-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -109,19 +112,30 @@ h1 {
   background: #404bbf;
 }
 /* section Char */
-.characteristics h3 {
+.characteristics-title {
   text-align: center;
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+.characteristics-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* Section our team */
 .team {
   background-color: #f4f4fd;
 }
-.team p {
+.team-list-descr {
   color: #434455;
   font-size: 16px;
 }
-.team h3 {
+.team-list-title {
   text-align: center;
   color: #2e2f42;
   font-weight: 500;
@@ -136,7 +150,7 @@ h1 {
   background-color: #ffffff;
 }
 /* Section our portfolio */
-.portfolio h3 {
+.portfolio-list {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -145,6 +159,13 @@ h1 {
 }
 .portfolio .portfolio-title {
   text-transform: capitalize;
+}
+.portfolio-list-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* footer */
 .footer-panel {
