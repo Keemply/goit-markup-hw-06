@@ -49,8 +49,7 @@ ul {
   color: #2e2f42;
 }
 /* Menu nav */
-.navigation-menu-list,
-.navigation-menu-list-studio {
+.navigation-menu-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -60,8 +59,8 @@ ul {
 .navigation-menu a:hover {
   color: #404bbf;
 }
-.navigation-menu-list-studio:active,
-.navigation-menu-list-studio:focus {
+.navigation-menu-list:active,
+.navigation-menu-list:focus {
   text-decoration: underline;
   text-underline-offset: 20px;
   color: #404bbf;
@@ -70,18 +69,17 @@ ul {
 .navigation-address {
   font-style: normal;
 }
-.navigation-address-mail,
-.navigation-address-tel {
+.navigation-address-contact {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.navigation-address a:hover {
+.navigation-address-contact:hover {
   color: #404bbf;
 }
-.navigation-address-mail:focus {
+.navigation-address-contact:focus {
   color: #404bbf;
 }
 /* Main */
