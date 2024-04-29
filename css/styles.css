@@ -58,7 +58,7 @@ body :is(h1, h2, h3, ul, li) {
 /* Header */
 .header-head {
   border-bottom: 1px solid #E7E9FC;
-  padding: 24px 0;
+
 }
 
 .header-wrapper {
@@ -124,6 +124,8 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
 }
 
 .navigation-menu a:hover {
