@@ -58,6 +58,7 @@ body :is(h1, h2, h3, ul, li) {
 /* Header */
 .header-head {
   border-bottom: 1px solid #E7E9FC;
+  padding: 24px 0;
 }
 
 .header-wrapper {
@@ -116,9 +117,6 @@ ul {
 }
 
 /* Menu nav */
-.navigation-menu-list-item {
-  padding: 24px 0;
-}
 
 .navigation-menu-list {
   font-weight: 500;
