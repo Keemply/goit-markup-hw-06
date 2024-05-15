@@ -667,6 +667,7 @@ h1 {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  background-color: #e7e9fc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -810,6 +811,7 @@ input[type=number] {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: var(--light_slate);
+  line-height: 117%;
 }
 
 .checkbox-label-cont {
@@ -864,9 +866,3 @@ input[type=number] {
 .footer-form-submit:focus {
   background-color: #404BBF;
 }
-
-/* #modal-form-name {
-  padding-left: 32px;
-  background: url(../images/img-1.jpg) no-repeat left;
-  background-size: 18px;
-} */
