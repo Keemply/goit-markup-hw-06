@@ -141,10 +141,11 @@ main {
 .section-main {
   padding: 72px 0px;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -834,6 +835,11 @@ input[type=number] {
   transform: translateX(-50%);
   padding: 72px 24px 40px 16px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
 }
 
 .mobile-menu-close {
@@ -856,9 +862,15 @@ input[type=number] {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
 }
 
+.mobile-menu-nav-item.is-active {
+  color: var(--ocean);
+}
+
+.mobile-menu-adress-list.is-active {
+  color: var(--iris);
+}
 
 .mobile-menu-nav-item {
   color: var(--NAVY_BLUE);
@@ -1017,9 +1029,9 @@ input[type=number] {
 
   .navigation-address-contact {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1038,6 +1050,8 @@ input[type=number] {
   /* Section main */
   .section-main {
     padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tabl.jpg);
+    min-width: 768px;
   }
 
   .section-main-title {
@@ -1070,9 +1084,12 @@ input[type=number] {
 
 
   /* Section team */
+  .team-wrapper.container {
+    padding: 0 16px;
+  }
 
-  .container.team-wrapper {
-    padding: 0px 108px;
+  .team-wrapper.container {
+    width: 584px;
   }
 
   .team-container {
@@ -1101,6 +1118,10 @@ input[type=number] {
     padding: 96px 0;
   }
 
+  .footer-panel-wrapper.container {
+    width: 584px;
+  }
+
   .footer-panel-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1119,9 +1140,6 @@ input[type=number] {
     max-width: 264px;
   }
 
-  .container.footer-panel-wrapper {
-    padding: 0 108px;
-  }
 
   .subscribe-par {
     text-align: start;
@@ -1146,17 +1164,7 @@ input[type=number] {
 
 
 
-
-
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -1330,6 +1338,7 @@ input[type=number] {
   .section-main {
     max-width: 1440px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   }
 
   .section-main-title {
@@ -1390,7 +1399,8 @@ input[type=number] {
   }
 
   .container.team-wrapper {
-    padding: 0px 15px;
+    width: 1158px;
+    padding: 0 15px;
   }
 
   /* Section our portfolio */
@@ -1430,7 +1440,7 @@ input[type=number] {
   }
 
   .container.footer-panel-wrapper {
-    padding: 0 15px;
+    width: 1158px;
   }
 
 
@@ -1549,6 +1559,19 @@ input[type=number] {
 
 @media (min-resolution: 192dpi) {
   .section-main {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob@2x.jpg);
+  }
+
+  @media (min-width: 768px) {
+    .section-main {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tabl@2x.jpg);
+    }
+  }
+
+
+  @media (min-width: 1158px) {
+    .section-main {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+    }
   }
 }
